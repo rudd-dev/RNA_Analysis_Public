@@ -114,7 +114,7 @@ file_path = "Modules_fr3d_9QF4_3_7_2026.xlsx"#'Stack_Abundance_Ribozyme.xlsx'
 structure = "Ribozyme_"
 
 #stores the data from the specified sheet in the filepath within a variable
-outA = pd.read_excel(file_path, sheet_name='OutputA')
+outA = pd.read_excel(file_path, sheet_name='Tables Output A+B+Bprime')
 #outAA = pd.read_excel(file_path, sheet_name='Output 2H Split')
 #outAA2H = pd.read_excel(file_path, sheet_name='Output Only 2H Split')
 #outAAn2H = pd.read_excel(file_path, sheet_name='Output non 2H Split')
